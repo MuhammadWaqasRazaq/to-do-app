@@ -6,7 +6,7 @@ Author: Muhammad Waqas
 Roll No: F2022266099  
 Section: v4
 
-Description:
+Description of my code:
 
 This is a simple, responsive To-Do List Web Application built using HTML, CSS, and JavaScript. It uses the browser's built-in `localStorage` to save tasks, so users can keep their tasks even after refreshing or closing the browser.
 
