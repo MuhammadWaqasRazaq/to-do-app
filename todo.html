@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="info-section">
+        <h2>Muhammad Waqas Razzaq</h2>
+        <h2>Roll No: F2022266099</h2>
+      </section>
+
+      <section class="todo-app">
+        <h2>To-Do List <img src="images/icon.png" alt="List Icon" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your Task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <p id="error-message"></p>
+        <div class="task-actions">
+          <button onclick="clearAllTasks()">Clear All</button>
+          <button onclick="clearCompletedTasks()">Clear Completed</button>
+        </div>
+
+        <ul id="list-container"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 To-Do App by Muhammad Waqas</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
