@@ -19,7 +19,7 @@ Features:
 ✅ Delete individual tasks  
 ✅ Clear all tasks  
 ✅ Clear only completed tasks  
-✅ Tasks saved in localStorage (persistent)  
+✅ Tasks saved in localStorage and in firebase realtime database (persistent)  
 ✅ Responsive and user-friendly design  
 ✅ Keyboard support (press Enter to add task)
 
@@ -29,7 +29,7 @@ Technologies Used:
 - CSS3 (with responsive design)  
 - JavaScript (Vanilla)  
 - Web Storage API (localStorage)  
-
+- firebase Realtime database
 How to Use:
 -----------
 1. Open `index.html` to launch the landing page.
@@ -49,8 +49,8 @@ Folder Structure:
 
 Notes:
 ------
-- No internet connection or database is needed.  
-- This is a fully front-end project.  
+- internet connection needed for firebase database.  
+- This is a full-stack project.  
 - Make sure your browser allows localStorage (enabled by default).
 
 
